@@ -1,0 +1,357 @@
+/*
+Pallete
+
+Navbar - B4C2D7
+Backgrounds - DADFEE
+
+*/
+
+body, h1, h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+li{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+body{
+	margin-top: 50px;
+}
+
+textarea{
+	resize: none;
+}
+
+.hrlight{
+	width: 10%;
+	color: white;
+	border: 2px solid white;
+}
+
+.hrdark{
+	width: 10%;
+	color: #D3CEFF;
+	border: 2px solid #D3CEFF;
+}
+
+#hr-services{
+	margin-top: 70px;
+}
+
+/* Navigation Bar */
+.navbar-custom{
+	background-color: #34495E;
+	border-color: #34495E;
+	height: 50px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.navbar a {
+	color: white;
+	cursor: default;
+}
+
+.nav > li > a:hover{
+    background-color: #4CD4B0;
+		color: white;
+		cursor: default;
+}
+
+.nav > li > a.active{
+    background-color: #4CD4B0;
+		color: white;
+}
+
+.navbar-brand{
+	color: white;
+	cursor: default;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+.navbar-header{
+	  float: left !important;
+}
+
+
+/*Top Container*/
+#company-logo{
+	color: gray;
+}
+
+#fa-scrollDown{
+	font-size: 50px;
+	color: white;
+	opacity: 0;
+	margin-top: 70px;
+	margin-bottom: 20px;
+
+}
+
+
+.ds-logo{
+	margin-top: 60px;
+	padding-bottom: 20px;
+}
+
+#ds-header{
+	font-size: 100px;
+	font-weight: 100;
+	color: white;
+}
+
+.banner-info{
+	background: #00587A;
+  background: -webkit-linear-gradient(left top, #DEADFB, #00587A);
+	min-height: 750px;
+	padding-top: 30px;
+}
+
+.banner-info-white{
+	min-height: 650px;
+	padding-top: 30px;
+}
+
+.banner-tag{
+	font-weight: 200;
+	color: white;
+	font-size: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+	background-color: #4CD4B0;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0px;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+#banner-logo-tag{
+	top: 0;
+}
+
+/* ABOUT CONTAINER */
+#dianne_profile{
+	border-radius: 250px;
+	height: 400px;
+	width: 400px;
+	border: 4px solid white;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#about-info-header{
+	font-size: 55px;
+	font-weight: 200;
+	color: #807AC2;
+
+}
+
+#meet-dianne{
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: 50px;
+}
+
+.about-info{
+	margin-top: 30px;
+}
+
+/* SERVICES */
+#services-data{
+	margin-top: 30px;
+}
+
+#servicesTag{
+	opacity: 1;
+}
+
+.services-panel{
+	background-color: #55BDE9;
+	border-radius: 0;
+	height: 60px;
+	color: white;
+	padding-top: 10px;
+}
+
+.panel-title{
+	font-size: 25px;
+	font-weight: 300;
+	padding-top: 5px;
+}
+
+.panel-whole{
+	border: 0px;
+	border-radius: 0px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+	opacity: 1;
+}
+
+.panel-body{
+	margin-top: 15px;
+}
+
+.services-pricing{
+	border-radius: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #58C7E5;
+	pointer-events: none;
+	border: 0px;
+}
+
+.services-pricing:hover{
+	background-color: #58C7E5;
+	pointer-events: none;
+	border: 0px;
+}
+
+.services-info{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style-type: none;
+	margin-left: 10px;
+	padding-left: 0px;
+}
+
+/* CONTACT CONTAINER*/
+#contact-form-header{
+	font-weight: 200;
+	color: #9EA7B3;
+}
+
+#submitForm{
+	background-color: #27AE60;
+	border: 0px;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
+	margin-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 0px;
+}
+
+#submitForm:hover{
+	background-color: #59AE7F;
+}
+
+.form-control{
+	height: 50px;
+	font-size: 20px;
+	border-radius: 0px;
+	margin-top: 20px;
+	font-weight: 200;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info{
+	margin-top: 50px;
+}
+
+.contact-right-info{
+	display: inline;
+	margin-left: 20px;
+	color: #9EA7B3;
+	font-weight: 200;
+}
+
+.fa.contact-right-icon{
+	color: #9EA7B3;
+}
+
+.contact-right-text{
+	margin-left: 50px;
+	padding-bottom: 20px;
+}
+
+#address-info{
+	font-weight: 500;
+}
+
+.invalid{
+	color: #c0392b;
+	font-weight: 400;
+}
+
+.valid{
+	border: 1px solid #2ecc71;
+}
+
+.hasError{
+	border: 1px solid #c0392b;
+}
+
+.hasError:focus{
+	border: 1px solid #c0392b;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+/* MAP */
+
+#map{
+	margin-top: 30px;
+	min-height: 350px;
+	width: 100%;
+	border-radius: 0px;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* DIAMOND FOOTER */
+
+.diamondIcon{
+		font-size: 40px;
+		color: #DBE1E8;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 30px;
+}
+
+#diamondFooter{
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 594px){
+	.ds-logo{
+			height: 350px;
+			width: 350px;
+	}
+
+	#ds-header{
+		font-size: 80px;
+		margin-top: 0px;
+	}
+
+	#dianne_profile{
+		height: 300px;
+		width: 300px;
+
+	}
+
+
+
+}

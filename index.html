@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salon Dianne.</title>
+
+	    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600" rel="stylesheet">
+		<script src="https://use.fontawesome.com/ed6b53129d.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav class="navbar navbar-fixed-top navbar-custom">
+	<div class="container-fluid">
+		    <div class="navbar navbar-brand" onclick="scrollToTop();">
+		    	<p>S D .</p>
+		    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li onclick="scrollToAbout();" id="nav-about" class="navbar-items"><a class="navbar-items" id="aboutNav">about</a></li>
+      <li onclick="scrollToServices();" id="nav-services" class="navbar-items"><a class="navbar-items" id="servicesNav">services</a></li>
+      <li onclick="scrollToContact();" id="nav-contact" class="navbar-items"><a class="navbar-items" id="contactNav">contact</a></li>
+    </ul>
+	</div>
+</nav>
+
+<!-- HEADER/LOGO CONTAINER  -->
+<div class="container-fluid banner-info" id="banner-logo-conatiner">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 hiBg">
+				<img class="center-block ds-logo" src="images/logo.svg" alt="">
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-12">
+						<h1 id="ds-header" class="text-center">SALON DIANNE.</h1>
+						<hr class="hrlight">
+			</div>
+
+			<div class="col-sm-12 col-md-12 col-lg-12 text-center">
+				<i id="instaIcon" class="fa fa-2x fa-instagram diamondIcon socialIcons"></i>
+				<i id="diamondIcon" class="fa fa-2x fa-facebook diamondIcon"></i>
+				<i id="diamondIcon" class="fa fa-2x fa-twitter diamondIcon"></i>
+
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-12 text-center">
+				<i id="fa-scrollDown" onclick="scrollToAbout();" class="fa fa-angle-double-down"></i>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ABOUT CONTAINER -->
+<div class="container-fluid banner-info-white" id="aboutContainer">
+	<div class="container">
+		<div class="row">
+			<div>
+					<h2 class="banner-tag">about.</h2>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-5 col-lg-5 about-info">
+						<img id="dianne_profile" class="center-block" src="images/dianne-profile.png" alt="">
+				</div>
+				<div class="col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1 about-info">
+						<div class="">
+							<h1 id="about-info-header"class="text-center">Meet Dianne</h1>
+							<hr class="hrdark">
+						</div>
+						<div id="meet-dianne">
+							<p>Hi there! I'm Dianne. </p>
+							<p>I have been a Beauty therapist for over 15 years, as well as teaching beauty at Victoria University.</p>
+							<p>I chose this industry as I have a love for <em>Massage, Skin, Beauty, Wellness</em>
+								but most of all making people feel special about themselves, I am at my happiest when I am helping someone.</p>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- SERVICES -->
+	<div class="container-fluid banner-info" id="servicesContainer">
+		<div class="container">
+			<div class="row">
+				<div>
+						<h2 class="banner-tag" id="servicesTag">services.</h2>
+				</div>
+				</div>
+				<div class="row" id="services-data">
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="panel panel-whole panel-services">
+							<div class="panel panel-heading services-panel">
+								<h2 class="panel-title text-center"><i class="fa fa-database"></i> Waxing</h2>
+							</div>
+							<div class="panel-body">
+										<li class="services-info">Arms <span class="btn btn-primary pull-right services-pricing">$35</span></li>
+										<li class="services-info">Legs <span class="btn btn-primary pull-right services-pricing">$45</span></li>
+										<li class="services-info">Brazilian <span class="btn btn-primary pull-right services-pricing">$40</span></li>
+										<li class="services-info">Eyebrows <span class="btn btn-primary pull-right services-pricing">$25</span></li>
+										<li class="services-info">Chin <span class="btn btn-primary pull-right services-pricing">$20</span></li>
+										<li class="services-info">Lip <span class="btn btn-primary pull-right services-pricing">$20</span></li>
+										<li class="services-info">Underarms <span class="btn btn-primary pull-right services-pricing">$30</span></li>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="panel panel-whole panel-services">
+							<div class="panel panel-heading services-panel">
+								<h2 class="panel-title text-center"><i class="fa fa-hand-paper-o"></i> Massage</h2>
+							</div>
+							<div class="panel-body">
+										<li class="services-info">Arms <span class="btn btn-primary pull-right services-pricing">$50</span></li>
+										<li class="services-info">Legs <span class="btn btn-primary pull-right services-pricing">$50</span></li>
+										<li class="services-info">Back <span class="btn btn-primary pull-right services-pricing">$65</span></li>
+										<li class="services-info">Shoulders <span class="btn btn-primary pull-right services-pricing">$40</span></li>
+										<li class="services-info">Feet<span class="btn btn-primary pull-right services-pricing">$45</span></li>
+										<li class="services-info">Full Body<span class="btn btn-primary pull-right services-pricing">$99</span></li>
+										<li class="services-info">Hot Stone <span class="btn btn-primary pull-right services-pricing">$75</span></li>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<div class="panel panel-whole panel-services">
+							<div class="panel panel-heading services-panel">
+								<h2 class="panel-title text-center"><i class="fa fa-star-o"></i> Treatments</h2>
+							</div>
+							<div class="panel-body">
+										<li class="services-info">Facial<span class="btn btn-primary pull-right services-pricing">$80</span></li>
+										<li class="services-info">Electrolosis<span class="btn btn-primary pull-right services-pricing">$70</span></li>
+										<li class="services-info">Manicure<span class="btn btn-primary pull-right services-pricing">$50</span></li>
+										<li class="services-info">Pedicure <span class="btn btn-primary pull-right services-pricing">$50</span></li>
+										<li class="services-info">Micropigmentation <span class="btn btn-primary pull-right services-pricing">$85</span></li>
+										<li class="services-info">Microdermabrasion <span class="btn btn-primary pull-right services-pricing">$60</span></li>
+										<li class="services-info">Thermage <span class="btn btn-primary pull-right services-pricing">$45</span></li>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="hrlight" id="hr-services">
+			</div>
+		</div>
+
+
+<!-- CONTACT CONTAINER -->
+<div class="container-fluid banner-info-white" id="contactContainer">
+	<div class="container">
+		<div class="row">
+			<div>
+					<h2 class="banner-tag" >contact.</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-5 col-lg-offset-1">
+					<div class="contact-info">
+						<h2 id="contact-form-header" class="text-center">Looking for something specific?</h2>
+					</div>
+						<form class="contactForm">
+							<div class="form-group">
+									<input class="form-control form-control-lg" type="text" name="name" value="" placeholder="name">
+							</div>
+							<div class="form-group">
+									<input class="form-control form-control-lg" type="text" name="email" value="" placeholder="email">
+							</div>
+							<div class="form-group">
+									<textarea class="form-control form-control-lg" rows="8" name="description" cols="80" placeholder="what did you need?"></textarea>
+							</div>
+								<button id="submitForm"class="btn btn-success btn-lg center-block" type="submit" name="submit">Send</button>
+						</form>
+				</div>
+				<div class="col-sm-12 col-md-5 col-lg-5 col-md-offset-1 col-lg-offset-1">
+					<div class="text-center contact-info">
+						<i class="fa fa-4x fa-map-marker contact-right-icon"></i>
+						<h4 class="contact-right-info" id="address-info">33 HERMITAGE DRIVE, GREENVALE, VIC 3059</h4>
+					</div>
+					<div id="map" class="col-sm-12 col-md-5 col-lg-5 center-block">
+					</div>
+				</div>
+			</div>
+			<!-- end top row -->
+			<div class="">
+					<div class="col-sm-12 col-md-12 col-lg-12 text-center" id="diamondFooter">
+							<i class="fa fa-2x fa-diamond diamondIcon" ></i>
+							<i class="fa fa-2x fa-diamond diamondIcon" ></i>
+							<i class="fa fa-2x fa-diamond diamondIcon" ></i>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Google api key
+AIzaSyB5xck1Z_5rDJRIWNKInYnREoOSH0n0TvM
+ -->
+
+ <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -37.654560, lng: 144.903394},
+          scrollwheel: false,
+          zoom: 15
+        });
+
+				var marker = new google.maps.Marker({
+          position: {lat: -37.654560, lng: 144.903394},
+          map: map,
+          title: 'Salon Dianne'
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5xck1Z_5rDJRIWNKInYnREoOSH0n0TvM&callback=initMap"
+    async defer></script>
+
+		<!-- GreenSock AP -->
+		<script type="text/javascript" src="js/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+		<script type="text/javascript" src="js/EasePack.min.js"></script>
+		<script type="text/javascript" src="js/TimelineMax.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/forms.js"></script>
+
+
+</body>
+</html>

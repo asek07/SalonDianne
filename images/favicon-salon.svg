@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- Copyright (c) 2010 by Svetoslav Simov. All rights reserved. -->
+<!-- Copyright: Copyright 2017 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="NexaLight" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="238"/>
+<glyph unicode="D" horiz-adv-x="709" d="M296,700C217,700 138,700 59,700l0,-700C138,0 217,0 296,0C541,0 655,180 651,358C647,530 533,700 296,700M296,649C498,649 594,504 597,358C600,208 504,52 296,52l-183,0l0,597z"/>
+<glyph unicode="S" horiz-adv-x="633" d="M562,591C493,694 406,710 306,710C191,710 37,664 40,516C40,387 171,361 299,336C414,314 530,291 529,186C529,62 392,38 306,38C220,38 110,80 67,165l-48,-24C73,34 197,-11 306,-11C423,-11 582,27 583,185C583,336 443,360 308,386C190,408 94,429 94,518C94,630 224,660 306,660C385,659 467,647 518,565z"/>
+</font>
+
+	<g id="Layer_1">
+	<circle style="fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" cx="16" cy="16" r="15.682"/>
+</g>
+<g id="Layer_2">
+	
+		<text transform="matrix(1 0 0 1 3.0285 22.9413)" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10; font-family:'NexaLight'; font-size:19.7755;">SD</text>
+</g>
+</svg>
